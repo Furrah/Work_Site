@@ -11,28 +11,28 @@ image: "/Images/IMG_2655.jpg"
 </p>
 <br> -->
 <p align="center"> 
-<img src="/Images/cal_front.jpeg" alt="drawing" width="1000"/>
+<img src="/Images/cal_front.jpg" alt="drawing" width="1000"/>
 </p>
 <br>
 
 <p align="center"> 
-<img src="/Images/controller.jpeg" alt="drawing" width="1000"/>
+<img src="/Images/controller.jpg" alt="drawing" width="1000"/>
 </p>
 <br>
 
 <p align="center"> 
-<img src="/Images/cal-anal-front.jpeg" alt="drawing" width="1000"/>
+<img src="/Images/cal-anal-front.jpg" alt="drawing" width="1000"/>
 </p>
 <br>
 
 <p align="center"> 
-<img src="/Images/cal-anal-back.jpeg" alt="drawing" width="1000"/>
+<img src="/Images/cal-anal-back.jpg" alt="drawing" width="1000"/>
 </p>
 <br>
 
 
 
 <p align="center"> 
-<img src="/Images/cal_tower.jpeg" alt="drawing" width="1000"/>
+<img src="/Images/cal_tower.jpg" alt="drawing" width="1000"/>
 </p>
 <br>
