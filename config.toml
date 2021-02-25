@@ -1,0 +1,68 @@
+baseURL = "https://furrah.github.io/"
+languageCode = "en-us"
+title = "Portfolio of Work"
+
+pygmentsCodefences = true
+pygmentsUseClasses = false
+pygmentsStyle = 'friendly' #required for lexer to work
+
+# googleAnalytics = "UA-177014444-1"
+
+
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+
+
+[permalinks]
+  electronics = "/:filename/"
+  food = "/:filename/"
+  misc = "/:filename/"
+  photography = "/:filename/"
+
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
+    weight = 1
+    type = 'food'
+
+  # [[menu.main]]
+  #   name = "Electronics"
+  #   pre = "cpu"
+  #   url = "/electronics/"
+  #   weight = 2
+
+  # [[menu.main]]
+  #   name = "Food"
+  #   pre = "heart"
+  #   url = "/food/"
+  #   weight = 3
+  #   type = "food"
+    
+  # [[menu.main]]
+  #   name = "Photography"
+  #   pre = "aperture"
+  #   url = "/photography/"
+  #   weight = 4   
+
+  # [[menu.main]]
+  #   name = "Misc"
+  #   pre = "coffee"
+  #   url = "/misc/"
+  #   weight = 5    
+
+  # [[menu.main]]
+  #   name = "Tags"
+  #   pre = "tag"
+  #   url = "/tags/"
+  #   weight = 6
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  dateFormat = "Jan 2, 2006"
+  homeText = "J. Spencer"

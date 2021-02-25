@@ -1,0 +1,136 @@
+<style>
+.container {
+  max-width: {{ .Site.Params.containerMaxWidth | default "1200px" | safeCSS }};
+}
+#nav a {
+  font-weight: bold;
+  color: inherit;
+
+}
+#nav-border {
+  border-bottom: 1px solid #212529;
+}
+#main {
+  margin-top: 1em;
+  margin-bottom: 4em;
+}
+#home-jumbotron {
+  background-color: inherit;
+}
+.font-125 {
+  font-size: 125%;
+}
+
+/*body {
+.font-family: Montserrat;
+}*/
+
+
+.tag-btn {
+
+  margin-bottom: 0.3em;
+}
+img {
+  max-width: 100%;
+}
+.btn {
+  margin-bottom: 0.3em;
+  margin-right : 0.3em;
+
+}
+
+/*<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">*/
+
+
+a {
+  color: #007bff;
+  /*color: #000000;*/
+ } /* CSS link color */
+
+
+
+
+
+td, th {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+@media (max-width: 34em) {
+    .card-columns {
+        -webkit-column-count:2;
+        -moz-column-count:2;
+        column-count:2;
+    }
+}
+
+pre {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #222222;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+}
+
+code {
+  /*background: #f4f4f4;*/
+  font-size: 14px;
+  /*color: #007bff;*/
+}
+
+
+
+.card-img-top{
+  /*padding-top: 10px;*/
+  /*padding-bottom: 10px;*/
+  /*border-radius: 10px;*/
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+.card{
+  border-radius: 10px;
+
+}
+
+/* Copy buttons */
+button.copybtn {
+  webkit-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+  opacity: .15;
+  padding: 2px 6px;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+/*div.highlight:hover .copybtn, div.highlight .copybtn:focus {*/
+    //opacity: .3;
+/*}*/
+div.highlight .copybtn:hover {
+    opacity: 1;
+    border-color: #51a7e8;
+}
+div.highlight .copybtn:after {
+    opacity: 1;
+}
+div.highlight {
+    position: relative;
+}
+
+
+
+
+
+
+
+</style>
