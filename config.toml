@@ -15,7 +15,7 @@ unsafe = true
 
 
 [permalinks]
-  electronics = "/:filename/"
+  projects = "/:filename/"
   food = "/:filename/"
   misc = "/:filename/"
   photography = "/:filename/"
@@ -23,17 +23,18 @@ unsafe = true
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    pre = "home"
+    name = "Projects"
+    pre = "cpu"
     url = "/"
     weight = 1
     type = 'food'
 
   # [[menu.main]]
-  #   name = "Electronics"
-  #   pre = "cpu"
-  #   url = "/electronics/"
+  #   name = "CV"
+  #   pre = "file-text"
+  #   url = "/CV"
   #   weight = 2
+
 
   # [[menu.main]]
   #   name = "Food"
