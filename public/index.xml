@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio of Work</title>
+    <link>https://furrah.github.io/</link>
+    <description>Recent content on Portfolio of Work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://furrah.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Beam Current Transformer Calibration System</title>
+      <link>https://furrah.github.io/calibration/</link>
+      <pubDate>Wed, 24 Feb 2021 18:21:08 +0100</pubDate>
+      
+      <guid>https://furrah.github.io/calibration/</guid>
+      <description>-- </description>
+    </item>
+    
+    <item>
+      <title>220/80 MHZ Distribution Amplifier</title>
+      <link>https://furrah.github.io/da/</link>
+      <pubDate>Wed, 24 Feb 2021 16:21:08 +0100</pubDate>
+      
+      <guid>https://furrah.github.io/da/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>320MHz Head Amplifier</title>
+      <link>https://furrah.github.io/ha/</link>
+      <pubDate>Wed, 24 Feb 2021 15:21:08 +0100</pubDate>
+      
+      <guid>https://furrah.github.io/ha/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VME Motor Controller</title>
+      <link>https://furrah.github.io/motor_controller/</link>
+      <pubDate>Wed, 24 Feb 2021 15:21:08 +0100</pubDate>
+      
+      <guid>https://furrah.github.io/motor_controller/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VME USB Rear Transition Module</title>
+      <link>https://furrah.github.io/vme_usb/</link>
+      <pubDate>Wed, 24 Feb 2021 15:21:08 +0100</pubDate>
+      
+      <guid>https://furrah.github.io/vme_usb/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
