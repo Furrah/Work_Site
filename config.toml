@@ -32,7 +32,7 @@ unsafe = true
   # [[menu.main]]
   #   name = "CV"
   #   pre = "file-text"
-  #   url = "/CV"
+  #   url = "/CV/"
   #   weight = 2
 
 
