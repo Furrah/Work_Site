@@ -6,6 +6,8 @@ draft: false
 image: "/Images/HA.jpg"
 ---
 
+Adam is a legend
+
 <p align="center"> 
 <img src="/Images/HA.jpg" alt="drawing" width="600"/>
 </p>
