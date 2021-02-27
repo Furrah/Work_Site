@@ -8,7 +8,7 @@ image: "/Images/IMG_2655.jpg"
 
 ## Full system 
 * FPGA based controller card 
-* 2 x Analogue Precision Pulsed Current Source 
+* 2 x Analogue precision pulsed current source 
 * PSU distribution card
 
 <p align="center"> 
