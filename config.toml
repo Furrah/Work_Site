@@ -1,4 +1,4 @@
-baseURL = "https://furrah.github.io/"
+baseURL = "https://jrspencer.netlify.app//"
 languageCode = "en-us"
 title = "Portfolio of Work"
 
@@ -27,7 +27,7 @@ unsafe = true
     pre = "cpu"
     url = "/"
     weight = 1
-    type = 'food'
+    # type = 'food'
 
   # [[menu.main]]
   #   name = "CV"
