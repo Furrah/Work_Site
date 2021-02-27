@@ -16,7 +16,7 @@
       <pubDate>Wed, 24 Feb 2021 18:21:08 +0100</pubDate>
       
       <guid>https://furrah.github.io/calibration/</guid>
-      <description>-- </description>
+      <description>Full system  FPGA based controller card 2 x Analogue Precision Pulsed Current Source PSU distribution card  Calibrator Controller  4 layer board 24 bit 4 MSPS sigma delta ADC EEPROM Voltage monitoring 4 x Opto-coupled LEMO inputs 2 x 10 GPIO with 3 pins dedicated to 3V3 for I2C etc. USB to QSPI bridge  Analogue Precision Pulsed Current Source  6 layer board Precision current source - 12ppm stability to 3 standard deviations.</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       <pubDate>Wed, 24 Feb 2021 16:21:08 +0100</pubDate>
       
       <guid>https://furrah.github.io/da/</guid>
-      <description></description>
+      <description>Features  Modular design Configurable to support single or dual inputs Configurable non reflective filters 4 output channels 1 user channel (no filter) Impedance controlled to 50 ohms Configurable power supply voltages to first and second stage amplifiers in main output channels Bypassable amplifier stages  Full System </description>
     </item>
     
     <item>
@@ -34,7 +34,7 @@
       <pubDate>Wed, 24 Feb 2021 15:21:08 +0100</pubDate>
       
       <guid>https://furrah.github.io/ha/</guid>
-      <description></description>
+      <description>Features  Dual channel amplifier 400 MHz non-reflective input filter 50 Ohm system Radiation tolerant PSU 4 layer board  </description>
     </item>
     
     <item>
@@ -43,7 +43,7 @@
       <pubDate>Wed, 24 Feb 2021 15:21:08 +0100</pubDate>
       
       <guid>https://furrah.github.io/motor_controller/</guid>
-      <description></description>
+      <description>Features  FPGA controller Control upto 8 motors For use with VME 6 layer board  </description>
     </item>
     
     <item>
@@ -52,7 +52,7 @@
       <pubDate>Wed, 24 Feb 2021 15:21:08 +0100</pubDate>
       
       <guid>https://furrah.github.io/vme_usb/</guid>
-      <description></description>
+      <description>Features  USB power controller Single ended 45 Ohms, differential 90 Ohm lines 3 x USB outputs For use with VME backplane  </description>
     </item>
     
   </channel>

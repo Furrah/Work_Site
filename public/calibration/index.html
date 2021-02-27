@@ -204,18 +204,41 @@ div.highlight {
 <h1>Beam Current Transformer Calibration System</h1>
 
 <br><br>
-<!-- <p align="center"> 
-<img src="/Images/IMG_2655.jpg" alt="drawing" width="1000"/>
-</p>
-<br> -->
+<h2 id="full-system">Full system</h2>
+<ul>
+<li>FPGA based controller card</li>
+<li>2 x Analogue Precision Pulsed Current Source</li>
+<li>PSU distribution card</li>
+</ul>
 <p align="center"> 
 <img src="/Images/cal_front.jpg" alt="drawing" width="1000"/>
 </p>
 <br>
+<h2 id="calibrator-controller">Calibrator Controller</h2>
+<ul>
+<li>4 layer board</li>
+<li>24 bit 4 MSPS sigma delta ADC</li>
+<li>EEPROM</li>
+<li>Voltage monitoring</li>
+<li>4 x Opto-coupled LEMO inputs</li>
+<li>2 x 10 GPIO with 3 pins dedicated to 3V3 for I2C etc.</li>
+<li>USB to QSPI bridge</li>
+</ul>
 <p align="center"> 
 <img src="/Images/controller.jpg" alt="drawing" width="1000"/>
 </p>
 <br>
+<h2 id="analogue-precision-pulsed-current-source">Analogue Precision Pulsed Current Source</h2>
+<ul>
+<li>6 layer board</li>
+<li>Precision current source - 12ppm stability to 3 standard deviations.</li>
+<li>Deviates by less than 100ppm over full pulse.</li>
+<li>Internal current measurement system based on half bridge topology</li>
+<li>Adjustable precision reference voltage</li>
+<li>EEPROM</li>
+<li>12 bit nano DAC</li>
+<li>4 x selectable outputs</li>
+</ul>
 <p align="center"> 
 <img src="/Images/cal-anal-front.jpg" alt="drawing" width="1000"/>
 </p>
@@ -224,8 +247,9 @@ div.highlight {
 <img src="/Images/cal-anal-back.jpg" alt="drawing" width="1000"/>
 </p>
 <br>
+<h2 id="testing-production">Testing Production</h2>
 <p align="center"> 
-<img src="/Images/cal_tower.jpg" alt="drawing" width="1000"/>
+<img src="/Images/cal_tower.jpg" alt="drawing" width="800"/>
 </p>
 <br>
 
