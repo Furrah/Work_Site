@@ -2,58 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio of Work</title>
-    <link>https://furrah.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Portfolio of Work</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://furrah.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 02 Dec 2024 09:26:42 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MTS Spectroscopy</title>
+      <link>http://localhost:1313/mts_spectroscopy/</link>
+      <pubDate>Mon, 02 Dec 2024 09:26:42 +0000</pubDate>
+      <guid>http://localhost:1313/mts_spectroscopy/</guid>
+      <description>&lt;p&gt;The MTS Spectroscopy system was developed in the Imaging Systems Department (ISD) at RAL Space. The basic principle is to lock a laser to a resonance of Rubidium 85/87 and then offset lock multiple lasers from the master lock. The system below has been designed to fit in a standard cubesat format for use in cold atoms research in space.&lt;/p&gt;&#xA;&lt;h1 id=&#34;master-lock&#34;&gt;Master Lock&lt;/h1&gt;&#xA;&lt;p align=&#34;center&#34;&gt; &#xA;&lt;img src=&#34;http://localhost:1313/Images/MTS0.png&#34; alt=&#34;drawing&#34; width=&#34;800&#34;/&gt;&#xA;&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;p align=&#34;center&#34;&gt; &#xA;&lt;img src=&#34;http://localhost:1313/Images/MTS1.png&#34; alt=&#34;drawing&#34; width=&#34;800&#34;/&gt;&#xA;&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;h1 id=&#34;offset-lock&#34;&gt;Offset Lock&lt;/h1&gt;&#xA;&lt;p align=&#34;center&#34;&gt; &#xA;&lt;img src=&#34;http://localhost:1313/Images/MTS2.png&#34; alt=&#34;drawing&#34; width=&#34;800&#34;/&gt;&#xA;&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;h1 id=&#34;cubesat-platform&#34;&gt;Cubesat Platform&lt;/h1&gt;&#xA;&lt;p align=&#34;center&#34;&gt; &#xA;&lt;img src=&#34;http://localhost:1313/Images/MTS3.png&#34; alt=&#34;drawing&#34; width=&#34;800&#34;/&gt;&#xA;&lt;/p&gt;&#xA;&lt;br&gt;</description>
+    </item>
     <item>
       <title>Beam Current Transformer Calibration System</title>
-      <link>https://furrah.github.io/calibration/</link>
+      <link>http://localhost:1313/calibration/</link>
       <pubDate>Wed, 24 Feb 2021 18:21:08 +0100</pubDate>
-      
-      <guid>https://furrah.github.io/calibration/</guid>
-      <description>Full system  FPGA based controller card 2 x Analogue Precision Pulsed Current Source PSU distribution card  Calibrator Controller  4 layer board 24 bit 4 MSPS sigma delta ADC EEPROM Voltage monitoring 4 x Opto-coupled LEMO inputs 2 x 10 GPIO with 3 pins dedicated to 3V3 for I2C etc. USB to QSPI bridge  Analogue Precision Pulsed Current Source  6 layer board Precision current source - 12ppm stability to 3 standard deviations.</description>
+      <guid>http://localhost:1313/calibration/</guid>
+      <description>&lt;h2 id=&#34;full-system&#34;&gt;Full system&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;FPGA based controller card&lt;/li&gt;&#xA;&lt;li&gt;2 x Analogue precision pulsed current source&lt;/li&gt;&#xA;&lt;li&gt;PSU distribution card&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p align=&#34;center&#34;&gt; &#xA;&lt;img src=&#34;http://localhost:1313/Images/cal_front.jpg&#34; alt=&#34;drawing&#34; width=&#34;1000&#34;/&gt;&#xA;&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;h2 id=&#34;calibrator-controller&#34;&gt;Calibrator Controller&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;4 layer board&lt;/li&gt;&#xA;&lt;li&gt;24 bit 4 MSPS sigma delta ADC&lt;/li&gt;&#xA;&lt;li&gt;EEPROM&lt;/li&gt;&#xA;&lt;li&gt;Voltage monitoring&lt;/li&gt;&#xA;&lt;li&gt;4 x Opto-coupled LEMO inputs&lt;/li&gt;&#xA;&lt;li&gt;2 x 10 GPIO with 3 pins dedicated to 3V3 for I2C etc.&lt;/li&gt;&#xA;&lt;li&gt;USB to QSPI bridge&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p align=&#34;center&#34;&gt; &#xA;&lt;img src=&#34;http://localhost:1313/Images/controller.jpg&#34; alt=&#34;drawing&#34; width=&#34;1000&#34;/&gt;&#xA;&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;h2 id=&#34;analogue-precision-pulsed-current-source&#34;&gt;Analogue Precision Pulsed Current Source&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;6 layer board&lt;/li&gt;&#xA;&lt;li&gt;Precision current source - 12ppm stability to 3 standard deviations.&lt;/li&gt;&#xA;&lt;li&gt;Deviates by less than 100ppm over full pulse.&lt;/li&gt;&#xA;&lt;li&gt;Internal current measurement system based on half bridge topology&lt;/li&gt;&#xA;&lt;li&gt;Adjustable precision reference voltage&lt;/li&gt;&#xA;&lt;li&gt;EEPROM&lt;/li&gt;&#xA;&lt;li&gt;12 bit nano DAC&lt;/li&gt;&#xA;&lt;li&gt;4 x selectable outputs&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p align=&#34;center&#34;&gt; &#xA;&lt;img src=&#34;http://localhost:1313/Images/cal-anal-front.jpg&#34; alt=&#34;drawing&#34; width=&#34;1000&#34;/&gt;&#xA;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>220/80 MHZ Distribution Amplifier</title>
-      <link>https://furrah.github.io/da/</link>
+      <link>http://localhost:1313/da/</link>
       <pubDate>Wed, 24 Feb 2021 16:21:08 +0100</pubDate>
-      
-      <guid>https://furrah.github.io/da/</guid>
-      <description>Features  Modular design Configurable to support single or dual inputs Configurable non reflective filters 4 output channels 1 user channel (no filter) Impedance controlled to 50 ohms Configurable power supply voltages to first and second stage amplifiers in main output channels Bypassable amplifier stages  Full System </description>
+      <guid>http://localhost:1313/da/</guid>
+      <description>&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Modular design&lt;/li&gt;&#xA;&lt;li&gt;Configurable to support single or dual inputs&lt;/li&gt;&#xA;&lt;li&gt;Configurable non reflective filters&lt;/li&gt;&#xA;&lt;li&gt;4 output channels&lt;/li&gt;&#xA;&lt;li&gt;1 user channel (no filter)&lt;/li&gt;&#xA;&lt;li&gt;Impedance controlled to 50 ohms&lt;/li&gt;&#xA;&lt;li&gt;Configurable power supply voltages to first and second stage amplifiers in main output channels&lt;/li&gt;&#xA;&lt;li&gt;Bypassable amplifier stages&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p align=&#34;center&#34;&gt; &#xA;&lt;img src=&#34;http://localhost:1313/Images/DA_Board.jpg&#34; alt=&#34;drawing&#34; width=&#34;1000&#34;/&gt;&#xA;&lt;/p&gt;&#xA;&lt;br&gt;&#xA;&lt;h2 id=&#34;full-system&#34;&gt;Full System&lt;/h2&gt;&#xA;&lt;p align=&#34;center&#34;&gt; &#xA;&lt;img src=&#34;http://localhost:1313/Images/DA_Full.jpg&#34; alt=&#34;drawing&#34; width=&#34;1000&#34;/&gt;&#xA;&lt;/p&gt;&#xA;&lt;br&gt;</description>
     </item>
-    
     <item>
       <title>320MHz Head Amplifier</title>
-      <link>https://furrah.github.io/ha/</link>
+      <link>http://localhost:1313/ha/</link>
       <pubDate>Wed, 24 Feb 2021 15:21:08 +0100</pubDate>
-      
-      <guid>https://furrah.github.io/ha/</guid>
-      <description>Features  Dual channel amplifier 400 MHz non-reflective input filter 50 Ohm system Radiation tolerant PSU 4 layer board  </description>
+      <guid>http://localhost:1313/ha/</guid>
+      <description>&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Dual channel amplifier&lt;/li&gt;&#xA;&lt;li&gt;400 MHz non-reflective input filter&lt;/li&gt;&#xA;&lt;li&gt;50 Ohm system&lt;/li&gt;&#xA;&lt;li&gt;Radiation tolerant PSU&lt;/li&gt;&#xA;&lt;li&gt;4 layer board&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p align=&#34;center&#34;&gt; &#xA;&lt;img src=&#34;http://localhost:1313/Images/HA.jpg&#34; alt=&#34;drawing&#34; width=&#34;600&#34;/&gt;&#xA;&lt;/p&gt;&#xA;&lt;br&gt;</description>
     </item>
-    
     <item>
       <title>VME Motor Controller</title>
-      <link>https://furrah.github.io/motor_controller/</link>
+      <link>http://localhost:1313/motor_controller/</link>
       <pubDate>Wed, 24 Feb 2021 15:21:08 +0100</pubDate>
-      
-      <guid>https://furrah.github.io/motor_controller/</guid>
-      <description>Features  FPGA controller Control upto 8 motors For use with VME 6 layer board  </description>
+      <guid>http://localhost:1313/motor_controller/</guid>
+      <description>&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;FPGA controller&lt;/li&gt;&#xA;&lt;li&gt;Control upto 8 motors&lt;/li&gt;&#xA;&lt;li&gt;For use with VME&lt;/li&gt;&#xA;&lt;li&gt;6 layer board&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p align=&#34;center&#34;&gt; &#xA;&lt;img src=&#34;http://localhost:1313/Images/Motor_Controller.jpg&#34; alt=&#34;drawing&#34; width=&#34;600&#34;/&gt;&#xA;&lt;/p&gt;&#xA;&lt;br&gt;</description>
     </item>
-    
     <item>
       <title>VME USB Rear Transition Module</title>
-      <link>https://furrah.github.io/vme_usb/</link>
+      <link>http://localhost:1313/vme_usb/</link>
       <pubDate>Wed, 24 Feb 2021 15:21:08 +0100</pubDate>
-      
-      <guid>https://furrah.github.io/vme_usb/</guid>
-      <description>Features  USB power controller Single ended 45 Ohms, differential 90 Ohm lines 3 x USB outputs For use with VME backplane  </description>
+      <guid>http://localhost:1313/vme_usb/</guid>
+      <description>&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;USB power controller&lt;/li&gt;&#xA;&lt;li&gt;Single ended 45 Ohms, differential 90 Ohm lines&lt;/li&gt;&#xA;&lt;li&gt;3 x USB outputs&lt;/li&gt;&#xA;&lt;li&gt;For use with VME backplane&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p align=&#34;center&#34;&gt; &#xA;&lt;img src=&#34;http://localhost:1313/Images/USB.jpg&#34; alt=&#34;drawing&#34; width=&#34;1000&#34;/&gt;&#xA;&lt;/p&gt;&#xA;&lt;br&gt;</description>
     </item>
-    
   </channel>
 </rss>
